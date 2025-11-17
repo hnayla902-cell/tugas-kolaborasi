@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyelesaian SPL Harga Produk</title>
+    <link rel="stylesheet" href="stylem1.css">
+</head>
+<body>
+
+<header>
+    <h1>Penyelesaian Sistem Persamaan Linear 3 Variabel</h1>
+    <p>Harga Produk: Bansai, Lampu Nanas, dan Bingkai Kaca dari CD</p>
+</header>
+
+<section class="container">
+
+    <div class="card">
+        <h2>1. Model Matematika</h2>
+        <p>x = harga 1 Bansai</p>
+        <p>y = harga 1 Lampu Nanas</p>
+        <p>z = harga 1 Bingkai Kaca dari CD</p>
+        <p>Persamaan:</p>
+        <p>1) x + y + z = 170.000</p>
+        <p>2) 2x + y + z = 230.000</p>
+        <p>3) x + y + 2z = 215.000</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Eliminasi Persamaan (1) dan (2)</h2>
+        <p>(2x + y + z) − (x + y + z) = 230.000 − 170.000</p>
+        <p>→ x = 60.000</p>
+    </div>
+
+    <div class="card">
+        <h2>3. Substitusi x ke Persamaan (1)</h2>
+        <p>x + y + z = 170.000 → 60.000 + y + z = 170.000</p>
+        <p>y + z = 110.000</p>
+    </div>
+
+    <div class="card">
+        <h2>4. Eliminasi Persamaan (3) dan Persamaan Baru</h2>
+        <p>Pers 3: x + y + 2z = 215.000 → 60.000 + y + 2z = 215.000</p>
+        <p>y + 2z = 155.000</p>
+        <p>Kurangi persamaan y + 2z − (y + z) = 155.000 − 110.000</p>
+        <p>→ z = 45.000</p>
+    </div>
+
+    <div class="card">
+        <h2>5. Substitusi Nilai z ke Persamaan y + z = 110.000</h2>
+        <p>y + 45.000 = 110.000</p>
+        <p>y = 65.000</p>
+    </div>
+
+    <div class="result">
+        <h2>✔ Hasil Akhir</h2>
+        <p>(x, y, z) = <strong>(60.000, 65.000, 45.000)</strong></p>
+    </div>
+
+</section>
+<section class="main-content">
+ <p><a href="./index.html" target="_blank">Return To Page</a></p>
+ </section>
+
+</body>
+</html>

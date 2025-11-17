@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyelesaian SPL 3 Variabel</title>
+    <link rel="stylesheet" href="stylem1.css">
+</head>
+<body>
+
+<header>
+    <h1>Penyelesaian Sistem Persamaan Linear 3 Variabel</h1>
+    <p>Metode Eliminasi dan Substitusi</p>
+</header>
+
+<section class="container">
+
+    <div class="card">
+        <h2>1. Persamaan Diketahui</h2>
+        <p>1) 2x + y + z = 135.000</p>
+        <p>2) x + 3y + z = 185.000</p>
+        <p>3) 2x + 2y + 3z = 245.000</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Eliminasi Persamaan (1) dan (2)</h2>
+        <p>(2x + y + z) − (x + 3y + z) = 135.000 − 185.000</p>
+        <p><strong>x − 2y = −50.000</strong></p>
+        <p>→ Persamaan (4)</p>
+    </div>
+
+    <div class="card">
+        <h2>3. Eliminasi Persamaan (2) dan (3)</h2>
+        <p>Kali 3 pada persamaan (2):</p>
+        <p>3x + 9y + 3z = 555.000</p>
+        <p>Kurangi dengan persamaan (3):</p>
+        <p>(3x + 9y + 3z) − (2x + 2y + 3z) = 555.000 − 245.000</p>
+        <p><strong>x + 7y = 310.000</strong></p>
+        <p>→ Persamaan (5)</p>
+    </div>
+
+    <div class="card">
+        <h2>4. Eliminasi Persamaan (4) dan (5)</h2>
+        <p>Pers (4): x − 2y = −50.000 → ×7 → 7x − 14y = −350.000</p>
+        <p>Pers (5): x + 7y = 310.000 → ×2 → 2x + 14y = 620.000</p>
+        <p>Jumlahkan kedua persamaan:</p>
+        <p>9x = 270.000</p>
+        <p><strong>x = 30.000</strong></p>
+    </div>
+
+    <div class="card">
+        <h2>5. Substitusi Nilai x ke Persamaan (4)</h2>
+        <p>30.000 − 2y = −50.000</p>
+        <p>−2y = −80.000</p>
+        <p><strong>y = 40.000</strong></p>
+    </div>
+
+    <div class="card">
+        <h2>6. Substitusi x dan y ke Persamaan (1)</h2>
+        <p>2(30.000) + 40.000 + z = 135.000</p>
+        <p>100.000 + z = 135.000</p>
+        <p><strong>z = 35.000</strong></p>
+    </div>
+
+    <div class="result">
+        <h2>✔ Hasil Akhir</h2>
+        <p>(x, y, z) = <strong>(30.000, 40.000, 35.000)</strong></p>
+    </div>
+
+</section>
+<section class="main-content">
+ <p><a href="./index.html" target="_blank">Return To Page</a></p>
+ </section>
+
+</body>
+</html>

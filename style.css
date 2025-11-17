@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap');
+
+header {
+  background-color: rgb(23, 123, 216);
+  color: var(--white);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top:0;
+}
+
+.title-header {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  transition: 0.3s;
+  
+}
+
+nav a:hover {
+  background-color: var(--color2);
+  border-radius: 8px;
+  padding: 3px ;
+}
+
+.hero {
+  background-image: url(./img/download\ \(5\).jpg);
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  min-height: 70vh;
+  margin: 0; /* Menghilangkan margin default browser */
+
+}
+
+.container {
+    max-width: 1200;
+    padding: 16px;
+    margin: auto;
+}
+.section{
+    margin: 80px auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: var(--white);
+}
+.main-content .main-heading {
+    text-align: center;
+    color: #005380;
+    font-size: 100px;
+    margin-top: 80px;
+}
+.menu-btn {
+    position: absolute;
+    top:20px;
+    right: 20px;
+    display: none;
+    width: 30px;
+}
+/*about*/
+#about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+#about .container .about-content{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+     font-family: "forum", sans-serif;
+    font-size: 30px;
+}
+#about .container .about-content h1{
+    font-family: "forum", sans-serif;
+    font-size: 30px;
+}
+#about .container .about-content p{
+    text-align: justify;
+}
+.section-title h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    background:  #b3d5f0;
+}
+.section-title .line {
+    width: 150px;
+    height: 4px;
+    border: 10px;
+    background: var(--secondary);
+    margin: auto;
+    background-color: #71b6df;
+}
+/*analyis*/
+.Analysis{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#Analysis .container{
+  background-color: #0D47A1;
+}
+.service{
+    width: 350px;
+}
+.service img{
+    max-width: 100%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+.service img:hover{
+    transform: scale(1.05);
+}
+.service h3{
+    color: #000;
+    text-align: center;
+}
+/*bundling*/
+
+.main-content .main-heading h1{
+    text-align:justify;
+    color: #000;
+}
+.main-content .intro-heading{
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 200%;
+}
+
+/*produk*/
+.produk {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#produk .container{
+    background-color:  #f1f5f8;
+}
+.service{
+    width: 350px;
+}
+.service img{
+    max-width: 100%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.service img:hover{
+    transform: scale(1.05);
+}
+.service h3{
+    color: #000;
+    text-align: center;
+}
+/* FORM KONTAK */
+.kontak {
+    background:  #0D47A1;
+}
+.form-kontak {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.kontak h2 {
+  color:white;
+  font-size: 3rem;
+  text-align: center;
+}
+.kontak .container {
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+.form-kontak input,
+.form-kontak textarea {
+    padding: 10px;
+    border: 1px solid  #fff; 
+    border-radius: 5px;
+    width: 100%;
+    text-decoration-color:  #fff;
+}
+.form-kontak button {
+    background:  #64B5F6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+}
+.form-kontak button:hover {
+    background: #fff;
+    text-align: center;
+    align-items: center;
+}
+/*profile*/
+.profil {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #283aa0;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.role {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.info p {
+    text-align: left;
+    font-size: 14px;
+    margin: 5px 0;
+}
+/*Footer*/
+.main-footer {
+    background-color: #76cadf;
+    font-family: 'Times New Roman', Times, serif; 
+    color: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 30px 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex-basis: 22%;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color:white; 
+}
+
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-links i {
+    font-size: 1.2rem;
+    color:black; 
+}
+
+.copy {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-size: 20p;
+}
